@@ -3,6 +3,6 @@ storageacc00 = {
     name     = "shubhstorage"
     location = "West Europe"
     }, sc02 = {
-    name = "shubhstorage00"
+    name = "shubhstorage022"
   location = "West Europe" }
 }
