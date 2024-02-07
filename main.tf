@@ -5,9 +5,9 @@ resource "azurerm_resource_group" "shubhblock" {
 
 resource "azurerm_storage_account" "example" {
     for_each = var.storageacc00
-  name                     = "storageaccountname"
-  resource_group_name      = azurerm_resource_group.example.name
-  location                 = azurerm_resource_group.example.location
+  name                     =each.value.name
+  resource_group_name      = "shubhrsg01"
+  location                 = each.value.location
   account_tier             = "Standard"
   account_replication_type = "GRS"
 
