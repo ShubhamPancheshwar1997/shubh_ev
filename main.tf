@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "shubhblock" {
 }
 
 resource "azurerm_storage_account" "example" {
-    for_each = var.storageacc00
+  for_each                 = var.storageacc00
   name                     = "storageaccountname"
   resource_group_name      = azurerm_resource_group.example.name
   location                 = azurerm_resource_group.example.location

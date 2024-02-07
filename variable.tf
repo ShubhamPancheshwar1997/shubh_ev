@@ -1,3 +1,3 @@
-variable"storageacc00"{
-    
+variable "storageacc00" {
+
 }
